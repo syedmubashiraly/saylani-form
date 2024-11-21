@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Signika:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"signika","popins",sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding:20px;
+    font-family:"signika","popins",sans-serif;
+    margin-left: 40px;
+}
+ /* .container{
+    /* max-width: 800px; */
+ 
+.container .form{
+   margin-top: 30px;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-between;
+}
+.form .input-box{
+    width: 50%;
+    margin-top: 20px;
+    
+}
+.input-box label{
+    color: #0D6DB7;
+    font-size: 14px;
+    margin-bottom: 2px;
+    padding-left:3px;
+}
+.input-box input{
+    border: 1px solid #8DC63F;
+    border-radius: 6px;
+    padding: 13px 15px;
+}
+.input-box input:hover{
+    border:1px solid #0D6DB7;
+    outline:none;
+}
+.input-box select{
+    border: 1px solid #8DC63F;
+    border-radius: 6px;
+    padding: 13px 15px;
+}
+.input-box select:hover{
+    border:1px solid #0D6DB7;
+    outline:none;
+}
+
+.form .input-box-100{
+    width: 100%;
+    margin-top: 20px;
+}
+.input-box-100 label{
+    color: #0D6DB7;
+    font-size: 14px;
+    margin-bottom: 2px;
+    padding-left:3px;
+}
+
+
+.input-box-100 input{
+    border: 1px solid #8DC63F;
+    border-radius: 6px;
+    padding: 13px 15px;
+}
+
+.input-box-100 input:hover{
+    border:1px solid #0D6DB7;
+    outline:none;
+}
+
+.input-box-100 select{
+    border: 1px solid #8DC63F;
+
+    border-radius: 6px;
+    padding: 13px 15px;
+
+}
+.input-box-100 select:hover{
+    border: 1px solid #0D6DB7;
+}
+
+.picture{
+    display: flex;
+    font-size: 12px;
+}
+.picture label{
+    font-size: 14px;
+    font-weight: 400;
+    color: #0D6DB7;
+    margin-bottom: 15px;
+}
+.picture .prop{
+    margin-top: 10px;
+}
+.lines{
+    margin-top: 45px;
+    font-size: 14px;
+    border: rgba(0,0,0,.2);
+    padding-right:9px;
+}
+.m .btn{
+    margin-top: 10px;
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    background:#0D6DB7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    cursor: pointer;
+    color: beige;
+    font-size: 18px;  
+    font-weight: 800;
+}
+.img{
+    margin-bottom:20px;
+}
